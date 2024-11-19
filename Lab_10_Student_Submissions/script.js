@@ -49,7 +49,7 @@ const editSubmissionByName = (submissions, name, newScore) => {
     if (studentToEdit) {
         studentToEdit.score = newScore
     }
-   studentToEdit.passed = newScore >= 60
+    studentToEdit.passed = newScore >= 60
 }
 
 editSubmissionByName(submissions, "Neville", 47)
@@ -58,8 +58,9 @@ console.log(submissions)
 // EDIT SUBMISSION BY INDEX
 const editSubmissionByIndex = (submissions, index, newScore) => {
     if (index >= 0 && index < submissions.length) {
-        submissions[index].score = newScore
-        submissions[index].passed = newScore >= 60
+        const submission = submissions[index]
+        submission.score = newScore
+        submission.passed = newScore >= 60
     }
 }
 
