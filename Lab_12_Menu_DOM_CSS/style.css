@@ -1,0 +1,53 @@
+html, body {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-bar {
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-button {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.menu-icon {
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.line {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.menu-option {
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+#numbers {
+    display: none;
+}
