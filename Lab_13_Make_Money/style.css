@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-}
+} 
 
 button {
     background-color: lightseagreen;
@@ -27,14 +27,16 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 12px;
-    display: none;
 }
 
 .penny-display, .nickel-display, .dime-display, .quarter-display {
     border-radius: 50%;
+    text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
     border: 2px solid black;
     width: 60px;
     height: 60px;
