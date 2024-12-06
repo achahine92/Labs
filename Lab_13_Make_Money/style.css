@@ -27,7 +27,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 12px;
-    display: none;
+    /* display: none; */
 }
 
 .penny-display, .nickel-display, .dime-display, .quarter-display {
