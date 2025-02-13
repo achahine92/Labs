@@ -1,9 +1,6 @@
 import Racer from "./Racer";
 
 export default class GasCar implements Racer {
-    team: string 
-    speed: number = 0
-    fuel: number 
 
     constructor(team: string, speed: number = 0, fuel: number = 10) {
         this.team = team 
