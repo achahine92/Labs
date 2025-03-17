@@ -11,7 +11,7 @@ const App = () => {
         getProducts().then(ps => {
             setProducts(ps)
         })
-    })
+    }, []); // Add dependency array so it only renders on mount
     
     return (
         <>
