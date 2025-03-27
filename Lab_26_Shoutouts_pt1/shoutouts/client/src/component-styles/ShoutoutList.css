@@ -1,0 +1,9 @@
+li {
+    padding-left: 10px;
+    margin: 15px;
+    height: 175px;
+    width: 90%;
+    list-style-type: none;
+    border: 1px solid #aaa;
+    background-color: white;
+}

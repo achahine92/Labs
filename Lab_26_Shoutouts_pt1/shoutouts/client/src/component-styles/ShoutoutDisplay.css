@@ -1,0 +1,31 @@
+.shoutout-display {
+    height: 200px;
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shoutout {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-size: 18px;
+}
+
+.shoutout-to {
+    font-size: 22px;
+}
+
+.from-text {
+    color: #333;
+    margin-left: 20px;
+}
+
+button {
+    height: 40px;
+    margin: 10px;
+}
