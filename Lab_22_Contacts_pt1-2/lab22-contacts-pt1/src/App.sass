@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap')
+  
+#root 
+  width: 100vw
+  height: 100%
+  max-width: 1280px
+  margin: 0 auto
+  text-align: center
+  padding: 10px
+
+html, body 
+  color: #ecf2f4
+  font-family: Space Grotesk
+  display: inline-block
+  background-color: #151b1d
+
+.nav-bar
+  width: 95%
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  border-bottom: 1px solid #5a7d7c
+  & .menu-icon
+    fill: #e36940
+    padding: 5px
+    width: 30px
+    height: 30px
+
+.wrapper
+  height: 50%
+  & .contact-form
+    display: flex
+    flex-direction: column
+    text-align: left
+    & label
+      font-weight: bold
+      padding-bottom: 20px
+      text-align: left
+    & input 
+      background-color: white
+      color: #151b1d
+      border-radius: 5%
+      padding: 5px
+      width: 90%
+    & .first-name
+      padding-bottom: 5px
+    & .last-name
+      padding-bottom: 5px
+    & .form-clickables
+      display: flex
+      align-items: center
+      width: 90%
+      & .is-favorite
+        border: 1px solid red
+      & .add-contact
+        width: 200px
+        height: 50px
+        padding: 10px
+      
+
+.contact-list
+  width: 90%
+  height: 50%
+  padding: 5px
+
+.contact-card 
+  width: 90%
+  border: 1px solid #5a7d7c
+  display: flex
+  justify-content: space-between
+  margin-top: 5px
+  padding: 0px 30px
+  & .contact-name
+    width: 45%
+    margin-left: 10px
+    font-weight: bold
+    text-align: left
+  & .contact-info
+    width: 45%
+    padding-left: 10px
+    padding-bottom: 5px
+    text-align: left
+    & .phone-number
+      border-bottom: 2px solid #5a7d7c
+      padding-bottom: 3px
+    & .icons
+      display: flex
+      & .favorite-icon svg
+        width: 18px
+        height: 18px
+        fill: #e36940
+        background: transparent
+      & .trash-icon svg
+        width: 18px
+        height: 18px
+        fill: #5a7d7c
+        background: transparent
+
+@media (min-width: 750px)
+  .body
+    width: 100vw
+    height: 100vh
+    margin-top: 30px
+    display: flex
+    flex-direction: row
+    justify-content: space-evenly
+
+  .wrapper
+    width: 45%
+    height: 100%
+    border-right: 1px solid #5a7d7c
+    & .contact-form
+      display: flex
+      flex-direction: column
+      text-align: left
+  
+  .contact-list
+    width: 45%
+    height: 100%
+
+  .contact-card
+    padding: 10px
+    margin-top: 10px
